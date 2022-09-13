@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap-5.2.0-dist/css/bootstrap.min.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <div class="container-fluid text-center">
+    <form class="form p-3 text-center">
+      <label class="h2 mb-3 d-block font-monospace text-secondary">Enter the name of the country!!</label>
+      <div class="d-flex align-items-center justify-content-center">
+        <input class="form-input form-control p-2 w-50 mx-2 rounded-2" type="text" placeholder="Uzbekistan">
+
+      <button class="btn btn-secondary ps-3 pe-3 p-2" type="submit">Submit</button>
+      </div>
+    </form>
+
+    <div class="spinner-border d-none js-spiner mt-5" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+
+    <ul class="list mt-3 d-flex justify-content-around flex-wrap p-0">
+      <!-- <li class="card my-2" style="width: 18rem;">
+        <img src="./img/NewTux.svg.png" class="card-img-top" alt="img" width="200" height="250">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </li> -->
+      
+    </ul>
+  </div>
+
+  <!-- Button trigger modal
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+    <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./img/NewTux.svg.png" class="modal-img-top modal-img w-100" alt="img" height="300">
+          <div class="modal-info">
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="./bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
